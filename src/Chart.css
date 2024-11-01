@@ -1,0 +1,18 @@
+/* src/Chart.css */
+.chart-container {
+  display: flex; /* Use flexbox for centering */
+  flex-direction: column; /* Align items in a column */
+  align-items: center; /* Center items horizontally */
+  width: 100%; /* Full width of the container */
+  height: auto; /* Allow height to adjust based on content */
+  margin: 20px 0; /* Margin for spacing */
+  padding: 20px; /* Padding around the chart */
+  background-color: #fff; /* White background for the chart */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.chart-container canvas {
+  max-width: 100%; /* Ensure the chart scales responsively */
+  height: auto; /* Allow height to adjust based on content */
+}
